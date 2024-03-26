@@ -1,0 +1,28 @@
+*{
+    margin: 10;  
+    padding: 10;
+    box-sizing: border-box;
+  }
+header{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right top, #200514, #381d25, #523436, #6c4d48, #85685c, #7f6a59, #796c58, #726e59, #505646, #333f34, #1b2723, #011110);;
+}
+.search{
+    background-color: #011110;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    width: 300px;
+    
+  }
+  .search input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: yellowgreen;
+  }
